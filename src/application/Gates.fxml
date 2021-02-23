@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="617.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GatesController">
+   <children>
+      <AnchorPane layoutY="4.0" prefHeight="611.0" prefWidth="1024.0">
+         <children>
+            <ScrollPane layoutY="4.0" prefHeight="611.0" prefWidth="1024.0">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="604.0" prefWidth="1014.0">
+                     <children>
+                        <ListView fx:id="gatesList" layoutY="-7.0" prefHeight="604.0" prefWidth="1024.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
